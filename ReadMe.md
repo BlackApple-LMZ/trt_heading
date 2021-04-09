@@ -1,1 +1,2 @@
 # trt_heading
+用TensorRT部署tensorflow模型，模型需要由ckpt转pb再转成uff模型，转uff的时候需要注意网络的模型是否支持uff，不支持得手动写一下插件
